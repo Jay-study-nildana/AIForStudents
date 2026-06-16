@@ -1,0 +1,48 @@
+{
+  "name": "taskly-api",
+  "version": "1.0.0",
+  "description": "Node.js + Express REST API for the Taskly task management application.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "jest --runInBand",
+    "coverage": "jest --runInBand --coverage"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sqlite",
+    "jwt",
+    "rbac",
+    "swagger",
+    "api"
+  ],
+  "author": "Jay",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ],
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  }
+}
