@@ -1,0 +1,192 @@
+
+# =====================================================
+# COMPREHENSIVE .gitignore for AI-Focused Project
+# Python + AI/ML + JavaScript + .NET
+# =====================================================
+
+# ==========================================
+# AI / Machine Learning
+# ==========================================
+# Model weights & checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.ggml
+*.onnx
+*.tflite
+*.ckpt
+*.pb
+
+# Common AI directories
+models/
+checkpoints/
+ollama/models/
+.huggingface/
+.cache/huggingface/
+
+# Datasets (use DVC or Git LFS for large data)
+data/
+datasets/
+
+# Training / experiment artifacts
+runs/
+logs/
+tensorboard/
+wandb/
+mlruns/
+lightning_logs/
+artifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Poetry / pipenv / uv — usually COMMIT these
+# poetry.lock
+# Pipfile.lock
+
+# ==========================================
+# Node.js / Frontend
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.yarn/
+.pnp.js
+dist/
+build/
+out/
+.next/
+.vercel/
+vite.config.*.timestamp-*
+coverage/
+
+# ==========================================
+# .NET
+# ==========================================
+bin/
+obj/
+.vs/
+*.user
+*.suo
+TestResults/
+*.coverage
+packages/
+artifacts/
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+*.code-workspace
+
+# ==========================================
+# OS Generated Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ==========================================
+# Secrets & Environment
+# ==========================================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keys and credentials
+*.pem
+*.key
+secrets/
+credentials.json
+*.p12
+*.pfx
+
+# ==========================================
+# Logs & Temp
+# ==========================================
+*.log
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+
+# ==========================================
+# Docker
+# ==========================================
+docker-compose.override.yml
+.docker/
+
+# ==========================================
+# Large / Archive Files (consider Git LFS)
+# ==========================================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ==========================================
+# Notes
+# ==========================================
+# For large model files: git lfs track "*.safetensors" "*.gguf" "*.bin"
+# For datasets: consider using DVC instead of committing data/
+# Never commit real secrets. Keep a .env.example file that IS tracked.
