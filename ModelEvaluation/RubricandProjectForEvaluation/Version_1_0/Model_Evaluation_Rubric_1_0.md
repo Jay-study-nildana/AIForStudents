@@ -7,15 +7,13 @@ Keep this document private — do **not** feed it to the agent.
 
 ## Evaluation Metadata
 
-| Field              | Value |
-|--------------------|-------|
-| **Project**        |       |
-| **Model Tested**   |       |
-| **Context**        |       |
-| **Released**       |       |
-| **Evaluation Dates** |     |
-| **Agent**          |       |
-| **Attempt #**      |       |
+| Field              | Value                              |
+|--------------------|------------------------------------|
+| **Project**        |                                    |
+| **Model Tested**   |                                    |
+| **Date**           |                                    |
+| **Hermes Version** |                                    |
+| **Attempt #**      | 1 / 2 / 3                          |
 
 ---
 

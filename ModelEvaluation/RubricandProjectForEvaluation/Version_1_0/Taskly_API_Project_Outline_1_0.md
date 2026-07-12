@@ -1,6 +1,6 @@
 # Taskly API - Project Outline & Specification - 1.0
 
-> **Purpose**: This document is a complete, ready-to-use specification you can feed directly to an AI coding agent (such as **Hermes Agent** using the new `nex-agi/nex-n2-pro:free` model on OpenRouter).  
+> **Purpose**: This document is a complete, ready-to-use specification you can feed directly to an AI coding agent (such as **Hermes Agent**).  
 > It defines a full Node.js + Express backend project with public + authenticated CRUD, role-based access control, Swagger docs, tests, and coverage.
 
 ---
