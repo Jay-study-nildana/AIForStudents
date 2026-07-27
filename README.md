@@ -2,6 +2,11 @@
 
 Python and AI Related stuff for my students.
 
+## Stuff
+
+1. Skills : Skills that work that I have developed to work with Hermes
+1. Model Evaluation : Contains folders that complement blog posts that are related to Model Evaluation. 
+
 ## book a session with me
 
 1. [calendly](https://calendly.com/jaycodingtutor/30min)
